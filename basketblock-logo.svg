@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#121212" rx="20" ry="20"/>
+  
+  <!-- Basketball texture -->
+  <circle cx="200" cy="200" r="160" fill="#e67e22"/>
+  <path d="M200,40 C280,40 360,120 360,200 C360,280 280,360 200,360 C120,360 40,280 40,200 C40,120 120,40 200,40" fill="none" stroke="#964B00" stroke-width="5"/>
+  <path d="M200,40 C200,40 200,360 200,360" fill="none" stroke="#964B00" stroke-width="5"/>
+  <path d="M40,200 C40,200 360,200 360,200" fill="none" stroke="#964B00" stroke-width="5"/>
+  <path d="M80,80 C80,80 320,320 320,320" fill="none" stroke="#964B00" stroke-width="5"/>
+  <path d="M320,80 C320,80 80,320 80,320" fill="none" stroke="#964B00" stroke-width="5"/>
+  
+  <!-- Blockchain blocks layered over the basketball -->
+  <rect x="120" y="120" width="60" height="60" fill="#3498db" rx="5" ry="5" opacity="0.8"/>
+  <rect x="220" y="120" width="60" height="60" fill="#2ecc71" rx="5" ry="5" opacity="0.8"/>
+  <rect x="120" y="220" width="60" height="60" fill="#9b59b6" rx="5" ry="5" opacity="0.8"/>
+  <rect x="220" y="220" width="60" height="60" fill="#f1c40f" rx="5" ry="5" opacity="0.8"/>
+  
+  <!-- Chain connecting blocks -->
+  <path d="M180,150 L220,150" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <path d="M150,180 L150,220" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <path d="M250,180 L250,220" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <path d="M180,250 L220,250" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- ETN logo hint (simplified version) -->
+  <circle cx="310" cy="90" r="30" fill="#16bffd" opacity="0.9"/>
+  <text x="310" y="98" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">ETN</text>
+  
+  <!-- Text -->
+  <text x="200" y="370" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">BasketBlock</text>
+</svg>
