@@ -84,7 +84,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AmaanSayyad/BasketBlock.git
+   git clone https://github.com/flack-404/BasketBlock.git
    ```
 2. Install dependencies:
    ```bash
